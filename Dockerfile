@@ -21,5 +21,5 @@ COPY --from=build /app/target/*.jar app.jar
 
 EXPOSE 8080
 
-# Comando para iniciar la aplicación
+# Comando para iniciar la aplica
 ENTRYPOINT ["java", "-jar", "app.jar"]
